@@ -1,0 +1,58 @@
+/* Custom styles for exact Figma design matching */
+
+/* Ensure proper spacing and alignment */
+.step-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+/* Custom arrow styling for feedback loop */
+.feedback-arrow {
+  position: relative;
+  z-index: 1;
+}
+
+/* Ensure consistent button sizing */
+.btn-primary {
+  @apply bg-orange text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange/90 transition-colors;
+  min-width: 160px;
+}
+
+/* Custom styling for step cards */
+.step-card {
+  @apply bg-white border border-gray-300 rounded-lg p-4 text-center shadow-sm;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Ensure proper text alignment and spacing */
+.text-center {
+  text-align: center;
+}
+
+/* Custom orange underline */
+.orange-underline {
+  @apply w-24 h-1 bg-orange mx-auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .step-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .feedback-arrow {
+    display: none;
+  }
+}
+
+/* Ensure proper z-index for step numbers */
+.step-number {
+  @apply w-16 h-16 bg-orange rounded-full flex items-center justify-center text-white font-bold text-xl mb-4;
+  z-index: 10;
+  position: relative;
+}
