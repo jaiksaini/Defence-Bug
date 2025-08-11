@@ -11,6 +11,11 @@ export default {
         'light-gray': '#f5f5f5',
         'orange': '#ff6b35',
       },
+      width: {
+        '15': '3.75rem',
+        '28': '7rem',
+        '75vw' : '75vw',
+      },
     },
   },
   plugins: [],
