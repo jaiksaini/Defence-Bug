@@ -15,7 +15,7 @@ const whatCustomersSay = [
 
 export default function WhatCustomersSay() {
   return (
-    <section className="w-75vw m-auto py-10 md:py-28 px-4 sm:px-8 lg:mx-32">
+    <section className="w-75vw m-auto py-10 md:py-28 sm:px-8 lg:mx-32">
       <Container>
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-white text-3xl md:text-5xl font-bold tracking-tight">

@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="bg-[#2B2E35] shadow-md h-16 flex items-center justify-between px-6">
       {/* Logo */}
-      <div className="flex items-center gap-2 text-white text-lg font-semibold ml-10">
+      <div className="flex items-center gap-2 text-white text-lg font-semibold md:ml-10">
         <img className="h-8" src={logo} alt="logo" />
         Defence Bug
       </div>
